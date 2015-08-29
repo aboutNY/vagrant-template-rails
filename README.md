@@ -4,6 +4,18 @@
 - Rails 4.1.6
 - MySQL 5.1.73
 
+# Localized file
+
+## ansible.cfg
+
+private_key_file={your private key pass}
+
+## Vagrantfile
+
+config.vm.synced_folder "{local folder}", "{remote folder}"
+
+# procedure
+
 ## 1. vagrant up
 
 ```
